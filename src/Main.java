@@ -9,7 +9,6 @@ public class Main {
         System.out.println("When I say 'shoot', Choose: rock, paper, or scissors.\n");
         System.out.println("Are you ready? Write 'yes' if you are.");
 
-        //Task 1: See if the user wants to play.
         String readiness = scan.nextLine();
 
         if (readiness.equals("yes")) {
